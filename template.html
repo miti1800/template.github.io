@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="./assets/template.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="left-part">
+            <h2 class="large-text bold-text text-uppercase">Logo</h2>
+        </div>
+        <div class="right-part">
+            <span class="iconify hamburger" onclick="openMenu()" data-icon="icon-park:hamburger-button"></span>
+            <ul class="nav-menu">
+                <li><a href="#" class="bold-text h5">Menu1</a></li>
+                <li><a href="#" class="bold-text h5">Menu2</a></li>
+                <li><a href="#" class="bold-text h5">Menu3</a></li>
+                <li><a href="#" class="bold-text h5">Menu4</a></li>
+                <li><span class="iconify close" onclick="closeMenu();" data-icon="eva:close-fill"></span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="body-container">
+        <div class="page-container">
+            <div class="landing-page-container">
+                <div class="landing-content">
+                    <h2 class="large-text text-uppercase bold-text">Travel Diaries</h2>
+                    <h5 class="light-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</h5>
+                    <a href="#" class="black-btn text-uppercase h4 bold-text">Register</a>
+                </div>   
+            </div>
+            <div class="landing-image">
+                <img src="./assets/images/trip_landing_image.svg" alt="image">
+            </div>
+        </div>
+        <div class="about-us">
+            <h2 class="text-uppercase bold-text green-text section-title"><u>about us</u></h2>
+            <h5 class="light-text" style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
+        </div>
+        <div class="plans-section">
+            <div class="main-wrapper">
+                <div class="tablinks">
+                  <button class="tablink default h4 bold-text" onclick="openPage('One', this)">One</button>
+                  <button class="tablink h4 bold-text" onclick="openPage('Two', this)">Two</button>
+                </div>
+                <div class="tab-contents">
+                  <div id="One" class="tabcontent">
+                    <div class="tab-card-container">    
+                        <div class="card-wrap" style="background-image: url('./assets/images/card-image.jpg');">
+                            <div class="card">
+                                <div class="card-details">
+                                    <h5 class="bold-text">Lorem Ipsum</h5>
+                                    <div class="card-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua.</p>
+                                        <a href="#" class="h6 bold-text">Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-card-container"> 
+                        <div class="card-wrap" style="background-image: url('./assets/images/card-image.jpg');">
+                            <div class="card">
+                                <div class="card-details">
+                                    <h5 class="bold-text">Lorem Ipsum</h5>
+                                    <div class="card-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua.</p>
+                                        <a href="#" class="h6 bold-text">Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-card-container"> 
+                        <div class="card-wrap" style="background-image: url('./assets/images/card-image.jpg');">
+                            <div class="card">
+                                <div class="card-details">
+                                    <h5 class="bold-text">Lorem Ipsum</h5>
+                                    <div class="card-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua.</p>
+                                        <a href="#" class="h6 bold-text">Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-card-container"> 
+                        <div class="card-wrap" style="background-image: url('./assets/images/card-image.jpg');">
+                            <div class="card">
+                                <div class="card-details">
+                                    <h5 class="bold-text">Lorem Ipsum</h5>
+                                    <div class="card-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua.</p>
+                                        <a href="#" class="h6 bold-text">Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div id="Two" class="tabcontent">
+                    <div class="tab-card-container"> 
+                        <div class="card-wrap" style="background-image: url('./assets/images/Gallery-image4.jpg');">
+                            <div class="card">
+                                <div class="card-details">
+                                    <h5 class="bold-text">Lorem Ipsum</h5>
+                                    <div class="card-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua.</p>
+                                        <a href="#" class="h6 bold-text">Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-card-container"> 
+                        <div class="card-wrap" style="background-image: url('./assets/images/Gallery-image4.jpg');">
+                            <div class="card">
+                                <div class="card-details">
+                                    <h5 class="bold-text">Lorem Ipsum</h5>
+                                    <div class="card-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua.</p>
+                                        <a href="#" class="h6 bold-text">Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-card-container"> 
+                        <div class="card-wrap" style="background-image: url('./assets/images/Gallery-image4.jpg');">
+                            <div class="card">
+                                <div class="card-details">
+                                    <h5 class="bold-text">Lorem Ipsum</h5>
+                                    <div class="card-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua.</p>
+                                        <a href="#" class="h6 bold-text">Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-card-container"> 
+                        <div class="card-wrap" style="background-image: url('./assets/images/Gallery-image4.jpg');">
+                            <div class="card">
+                                <div class="card-details">
+                                    <h5 class="bold-text">Lorem Ipsum</h5>
+                                    <div class="card-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua.</p>
+                                        <a href="#" class="h6 bold-text">Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="register-section">
+            <h2 class="bold-text text-uppercase green-text section-title"><u>Register for a plan</u></h2>
+            <div class="stepper_div">
+                <div class="stepper_count">
+                    <div class="steps active">
+                        <h4>1</h4>
+                    </div>
+                    <div class="steps">
+                        <h4>2</h4>
+                    </div>
+                    <div class="steps">
+                        <h4>3</h4>
+                    </div>
+                    <div class="steps">
+                        <h4>4</h4>
+                    </div>
+                </div>
+                <div class="stepper_content">
+                    <div class="step_desc show">
+                        <h4 class="bold-text">Step 1:</h4>
+                        <h6 class="light-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h6>
+                        <div class="button-div">
+                            <a class="normal-btn bold-text" onclick="nextBtn()">Next</a>
+                        </div>
+                    </div>
+                    <div class="step_desc">
+                        <h4 class="bold-text">Step 2:</h4>
+                        <h6 class="light-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h6>
+                        <div class="button-div">
+                            <a class="normal-btn bold-text" onclick="prevBtn()">Prev</a>
+                            <a class="normal-btn bold-text" onclick="nextBtn()">Next</a>
+                        </div>
+                    </div>
+                    <div class="step_desc">
+                        <h4 class="bold-text">Step 3:</h4>
+                        <h6 class="light-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h6>
+                        <div class="button-div">
+                            <a class="normal-btn bold-text" onclick="prevBtn()">Prev</a>
+                            <a class="normal-btn bold-text" onclick="nextBtn()">Next</a>
+                        </div>
+                    </div>
+                    <div class="step_desc">
+                        <h4 class="bold-text">Step 4:</h4>
+                        <h6 class="light-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h6>
+                        <div class="button-div">
+                            <a class="normal-btn bold-text" onclick="prevBtn()">Prev</a>
+                            <a class="normal-btn bold-text" onclick="submitBtn()">Submit</a>
+                        </div>
+                    </div>
+                    <div class="step_desc">
+                        <h4 class="bold-text">You have successfully submitted the details !!</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="faq-section">
+            <h2 class="bold-text section-title text-uppercase"><u>Faq</u></h2>
+            <div class="faq-field">
+                <div class="faq-image">
+                    <img src="./assets/images/faq_image.svg">
+                </div>
+                <div class="accordian">
+                    <div class="content">
+                        <h4 class="label">Lorem Ipsum</h4>
+                        <div class="contentx">
+                            <h6 class="light-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptas ab numquam, harum
+                                necessitatibus obcaecati ullam culpa quae unde, asperiores molestias. Labore culpa sunt cupiditate
+                                minus quia accusamus earum explicabo!</h6>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h4 class="label">Lorem Ipsum</h4>
+                        <div class="contentx">
+                            <h6 class="light-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptas ab numquam, harum
+                                necessitatibus obcaecati ullam culpa quae unde, asperiores molestias. Labore culpa sunt cupiditate
+                                minus quia accusamus earum explicabo!</h6>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h4 class="label">Lorem Ipsum</h4>
+                        <div class="contentx">
+                            <h6 class="light-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptas ab numquam, harum
+                                necessitatibus obcaecati ullam culpa quae unde, asperiores molestias. Labore culpa sunt cupiditate
+                                minus quia accusamus earum explicabo!</h6>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h4 class="label">Lorem Ipsum</h4>
+                        <div class="contentx" id="last-contentx">
+                            <h6 class="light-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptas ab numquam, harum
+                                necessitatibus obcaecati ullam culpa quae unde, asperiores molestias. Labore culpa sunt cupiditate
+                                minus quia accusamus earum explicabo!</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-section">
+            <h2 class="bold-text green-text text-uppercase" style="text-align: center;"><u>Gallery</u></h2>
+            <div class= "masonary-gallery">
+                <div class="row" id ="row1">
+                  <img src="assets\images\Gallery-image1.jpg"  alt="">
+                  <img src="assets\images\Gallery-image2.jpg"  alt="">
+                </div>
+                <div class ="row" id="row2">
+                  <img src="assets\images\Gallery-image3.jpg"  alt="">
+                  <div class ="column">
+                    <img src="assets\images\Gallery-image4.jpg"  alt="">
+                    <img src="assets\images\Gallery-image5.jpg" alt="">
+                  </div>
+                  <img src="assets\images\Gallery-image6.jpg"   alt="">
+                </div>
+                <div class="row" id="row3">
+                  <img src="assets\images\Gallery-image7.jpg"  alt="">
+                  <img src="assets\images\Gallery-image8.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer-section">
+            <div class="upper-footer">
+                <div class="upper-footer-section">
+                    <h3 class="bold-text text-uppercase"><u>Quick links</u></h3>
+                    <a href="#"><h5 class="light-text">Menu 1</h5></a>
+                    <a href="#"><h5 class="light-text">Menu 2</h5></a>
+                    <a href="#"><h5 class="light-text">Menu 3</h5></a>
+                    <a href="#"><h5 class="light-text">Menu 4</h5></a>
+                </div>
+                <div class="upper-footer-section contact-us">
+                    <h3 class="bold-text text-uppercase"><u>Contact us</u></h3>
+                    <a href="#"><span class="iconify" data-icon="fluent:mail-16-filled" style="color: white;"></span><h5 class="light-text">abc@gmail.com</h5></a>
+                    <a href="#"><span class="iconify" data-icon="fluent:call-20-filled" style="color: white;"></span><h5 class="light-text">9876543210</h5></a>
+                    <a href="#"><span class="iconify" data-icon="entypo:location-pin" style="color: white;"></span><h5 class="light-text">"ABC", Belgium - 450007.</h5></a>
+                </div>
+                <div class="upper-footer-section contact-us">
+                    <h3 class="bold-text text-uppercase"><u>Social Media Links</u></h3>
+                    <a href="#"><span class="iconify" data-icon="dashicons:facebook-alt" style="color: white;"></span><h5 class="light-text">travel_diaries</h5></a>
+                    <a href="#"><span class="iconify" data-icon="ant-design:instagram-filled" style="color: white;"></span><h5 class="light-text">travel_diaries</h5></a>
+                </div>
+                <div class="upper-footer-section">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1299491.3141719128!2d3.3450645407877344!3d50.49567405089846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c17d64edf39797%3A0x47ebf2b439e60ff2!2sBelgium!5e0!3m2!1sen!2sin!4v1638291325269!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="lower-footer">
+                <h6 class="bold-text">travelDiaries_since2021</h6>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <script src="./assets/template.js"></script>
+</body>
+</html>
